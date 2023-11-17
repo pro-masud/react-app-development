@@ -1,10 +1,9 @@
 import './App.css'
 function App() {
-
-
+  const headingCss = {color: "red", fontSize: "60px"}
   return (
     <>
-      <h1 className='proMasud'>Hello JavaScript</h1>
+      <h1 style={headingCss}>Hello JavaScript</h1>
     </>
   )
 }
