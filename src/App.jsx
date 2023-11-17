@@ -1,9 +1,9 @@
-import './App.css'
+import './App.css';
+import './assets/MainCss.css';
 function App() {
-  const headingCss = {color: "red", fontSize: "60px"}
   return (
     <>
-      <h1 style={headingCss}>Hello JavaScript</h1>
+      <h1 className='heading'>Hello JavaScript</h1>
     </>
   )
 }
