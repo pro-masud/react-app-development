@@ -1,10 +1,14 @@
 import './App.css';
 // import HeadingCSS from './assets/app.module.css';
 function App() {
-  const isPass = true;
+  const foods = ['alo', 'potol', 'lao', 'kumra', 'apple'];
   return (
     <>
-      {isPass === true ? <h2 style={{color: 'green', fontSize :'40px'}}> True </h2 > : <h2 style={{color: 'red', fontSize :'40px'}}>False</h2>}
+      <ul>
+        {foods.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
     </>
   );
 }
