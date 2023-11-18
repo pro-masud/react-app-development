@@ -1,10 +1,9 @@
-import teamPhoto  from "../assets/p.jpg";
-const Member = () => {
+const Member = ({member}) => {
   return (
     <div className="member">
-        <img src={teamPhoto} alt="mage" />
-        <h2>Masud Rana</h2>
-        <h5>WordPress Developer</h5>
+        <img src={member.photo} alt="mage" />
+        <h2>{member.name}</h2>
+        <h5>{member.skills}</h5>
     </div>
   )
 }

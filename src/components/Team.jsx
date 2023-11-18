@@ -6,7 +6,7 @@ const Team = () => {
     <>
       <div className="team-area">
         { data.map((item, index) => (
-            <Member key={index} />
+            <Member  member={item} key={index} />
         ))}
       </div>
     </>   
