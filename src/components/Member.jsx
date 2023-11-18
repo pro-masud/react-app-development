@@ -9,4 +9,4 @@ const Member = () => {
   )
 }
 
-export default Member
+export default Member;

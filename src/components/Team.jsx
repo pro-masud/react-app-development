@@ -1,12 +1,15 @@
 import Member from "./Member";
-
+import {data} from "../faker/data"; 
+  console.log(data);
 const Team = () => {
   return (
     <>
       <div className="team-area">
-        <Member />
+        { data.map((item, index) => (
+            <Member key={index} />
+        ))}
       </div>
-    </>
+    </>   
   )
 }
 
