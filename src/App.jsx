@@ -1,13 +1,10 @@
 import './App.css';
+import Team from './components/Team';
 // import HeadingCSS from './assets/app.module.css';
-function App() {
-  const  handleButton = () => {
-    alert('Hello World');
-  };
-
+function App() {  
   return (
     <>
-      <button onClick={() => handleButton()} style={{padding: "20px", backgroundColor:'#000', color:'red', border:"none"}}>Click Me</button>
+      <Team />
     </>
   );
 }
